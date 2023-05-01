@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,15 +13,84 @@
     </header>
     <hr>
 </head>
+
 <body>
-    <form action=""  method="post">
+    <form action="" method="post">
         <table>
             <tr>
-                <td>1.Name </td>
-                <td><input type="text" name="name" value="name"></td>
+                <td>1. Name </td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td>2. Age</td>
+                <td><input type="number" name="age" id="age" min="12" max="100"></td>
+            </tr>
+            <tr">
+                <td>3. Where do you eat most often?</td>
+                <td>
+                    <input type="radio" name="location" id="home" value="home">
+                    <label for="home">At home</label>
+
+                    <input type="radio" name="location" id="work_school" value="work_school">
+                    <label for="home">At work/school</label>
+
+                    <input type="radio" name="location" id="restaurant" value="restaurant">
+                    <label for="home">At a restaurant</label>
+                </td>
+                </tr>
+                <tr>
+                    <td>4. Specify how often</td>
+                </tr>
+            <tr>
+                <table >
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>every day</th>
+                            <th>few times a week</th>
+                            <th>once a week</th>
+                            <th>several times a month</th>
+                            <th>once a month</th>
+                            <th>less often than once a month</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>You prepare your own meal</td>
+                            <td><input type="radio" name="you_prepare" value="everyday"></td>
+                            <td><input type="radio" name="you_prepare" value="once_week"></td>
+                            <td><input type="radio" name="you_prepare" value="several_times_week"></td>
+                            <td><input type="radio" name="you_prepare" value="once_month"></td>
+                            <td><input type="radio" name="you_prepare" value="several_times_month"></td>
+                            <td><input type="radio" name="you_prepare" value="less_often_month"></td>
+                        </tr>
+
+                        <tr>
+                            <td>You eat out</td>
+                            <td><input type="radio" name="you_eat_out" value="everyday"></td>
+                            <td><input type="radio" name="you_eat_out" value="once_week"></td>
+                            <td><input type="radio" name="you_eat_out" value="several_times_week"></td>
+                            <td><input type="radio" name="you_eat_out" value="once_month"></td>
+                            <td><input type="radio" name="you_eat_out" value="several_times_month"></td>
+                            <td><input type="radio" name="you_eat_out" value="less_often_month"></td>
+                        </tr>
+
+                        <tr>
+                            <td>You order food for home</td>
+                            <td><input type="radio" name="you_order_for_home" value="everyday"></td>
+                            <td><input type="radio" name="you_order_for_home" value="once_week"></td>
+                            <td><input type="radio" name="you_order_for_home" value="several_times_week"></td>
+                            <td><input type="radio" name="you_order_for_home" value="once_month"></td>
+                            <td><input type="radio" name="you_order_for_home" value="several_times_month"></td>
+                            <td><input type="radio" name="you_order_for_home" value="less_often_month"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </tr>
         </table>
     </form>
-   
+
 </body>
+
 </html>
