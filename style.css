@@ -1,6 +1,41 @@
 *{
     font-family: sans-serif;
+    background-image: url();
 }
 th, td {
             padding: 10px;
         }
+label {
+    margin-right: 20px;
+}
+
+button {
+    margin: 2px;
+}
+.table2 {
+    font-size: 0.7em;
+    border: 1px solid
+}
+.name, .age {
+    padding: 1px;
+    border: 1pc;
+}
+td:hover {
+    background-color: beige;
+    padding: 0px;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+button:active {
+    background-color: greenyellow;
+}
+img {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 550px;
+    bottom: px;
+}
