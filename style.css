@@ -9,10 +9,12 @@ h1 {
 h5::before{
     content: ':)';
     color: green;
+    font-size: 50px;
 }
 h5::after{
     content: ':)';
     color: green;
+    font-size: 50px;
 }
 
 
@@ -40,7 +42,7 @@ button {
 
 .table2 {
     font-size: 0.7em;
-    border: 1px solid
+    border: 1px solid red
 }
 
 .name,
